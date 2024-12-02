@@ -47,7 +47,7 @@ const updateFlag=(ele) => {
   img.src=imgURL;
 }
 
-
+//Function to get the latest exchange rate
 const getExchangeRate=async () => {
     let amountVal=amount.value;
     if(amountVal==="" || amountVal<1 )
