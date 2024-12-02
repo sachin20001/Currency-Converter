@@ -66,7 +66,7 @@ const getExchangeRate=async () => {
     msg.innerText=`${amountVal} ${from.toUpperCase()} is ${finalVal} ${to.toUpperCase()}`;
 }
 
-
+//Adding click event to button to fetch latest exchange rate on each click
 btn.addEventListener("click",() => {
   getExchangeRate();
 })
